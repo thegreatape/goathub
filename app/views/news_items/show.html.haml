@@ -1,0 +1,33 @@
+%p#notice= notice
+
+%p
+  %b Author name:
+  = @news_item.author_name
+%p
+  %b Project name:
+  = @news_item.project_name
+%p
+  %b Project link:
+  = @news_item.project_link
+%p
+  %b Author link:
+  = @news_item.author_link
+%p
+  %b Date:
+  = @news_item.date
+%p
+  %b Thumb url:
+  = @news_item.thumb_url
+%p
+  %b Link:
+  = @news_item.link
+%p
+  %b Content:
+  = @news_item.content
+%p
+  %b Read:
+  = @news_item.read
+
+= link_to 'Edit', edit_news_item_path(@news_item)
+\|
+= link_to 'Back', news_items_path
