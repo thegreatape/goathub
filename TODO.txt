@@ -1,0 +1,11 @@
+tests for Users:
+  * email formatting
+  * authentication
+  * password matching
+
+create NewsFeed object
+  * has many NewsItems 
+  * belongs to User
+  * stores feed url
+  * knows last updated date
+  * controller knows how consume a feed and turn it into NewsItems 
