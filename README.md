@@ -1,0 +1,1 @@
+Goathub is (well, will be) a feed-reader style view of your GitHub news feed.  It makes it easier to track your watched coders and repositories for activity without getting lost in the noise of a few highly industrious members. 
