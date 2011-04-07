@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Email:
+  = @user.email
+%p
+  %b Hashed password:
+  = @user.hashed_password
+%p
+  %b Salt:
+  = @user.salt
+
+= link_to 'Edit', edit_user_path(@user)
+\|
+= link_to 'Back', users_path
