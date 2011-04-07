@@ -1,23 +1,23 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  author_name: MyString
-  project_name: MyString
-  project_link: MyString
-  author_link: MyString
+  author_name: thegreatape
+  project_name: goathub
+  project_link: https://github.com/thegreatape/goathub
+  author_link: https://github.com/thegreatape
   date: 2011-04-06
-  thumb_url: MyString
-  link: MyString
-  content: MyText
+  thumb_url: https://secure.gravatar.com/avatar/764740c772a0c1b7f
+  link: https://github.com/thegreatape/goathub/commit/219847f7aac8a6d8cad6834abf7a324c7e3417ce
+  content: thegreatape pushed two commits to goathub
   read: false
 
 two:
-  author_name: MyString
-  project_name: MyString
-  project_link: MyString
-  author_link: MyString
-  date: 2011-04-06
-  thumb_url: MyString
-  link: MyString
-  content: MyText
-  read: false
+  author_name: throughnothing
+  project_name: ticgit
+  project_link: https://github.com/jeffWelling/ticgit
+  author_link: https://github.com/throughnothing 
+  date: 2011-04-05
+  thumb_url: https://secure.gravatar.com/avatar/764740c772a0c1b7f
+  link: https://github.com/jeffWelling/ticgit
+  content: throughnothing started watcing jellWelling/ticgit
+  read: true
