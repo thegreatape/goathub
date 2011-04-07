@@ -41,6 +41,21 @@ class UsersControllerTest < ActionController::TestCase
     assert_no_difference('User.count') do
       post :create, :user => obiwan
     end
+
+    assert_select '#error_explanation ul li', /Email is invalid/
+  end
+
+  test "should not create user with mismatched passwords" do
+    luke = {
+      :email => 'luke@rebel-alliance.org',
+      :password => 'what.wompa?',
+      :password_confirmation => 'oh.that.one'
+    }
+    assert_no_difference('User.count') do
+      post :create, :user => luke
+    end
+
+    assert_select '#error_explanation ul li', /Password doesn't match confirmation/
   end
 
   test "should show user" do
