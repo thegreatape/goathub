@@ -1,11 +1,4 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  email: MyString
-  hashed_password: MyString
-  salt: MyString
-
-two:
-  email: MyString
-  hashed_password: MyString
-  salt: MyString
+yoda:
+  email: yoda@dagobah.org
+  hashed_password: asd3q43wder3wjaedljsfdiefjsd
+  salt: NaCl22322

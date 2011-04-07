@@ -1,6 +1,10 @@
 class User < ActiveRecord::Base
-  validates :email, :presence => true, :uniqueness => true
+  validates :email, 
+    :presence => true, 
+    :uniqueness => true,
+    :format => /[\w._%+-]+@[\w._%+-]+\.\w+/
   validates :password, :confirmation => true
+
   attr_accessor :password_confirmation
   attr_accessor :password
   validate :password_must_be_present
