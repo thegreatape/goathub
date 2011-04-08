@@ -2,3 +2,7 @@ yoda_feed:
   user_id: 1
   feed_url: https://github.com/yoda.private.atom?token=sdlfjsdlkfjsldf
   last_updated: 2011-04-07
+
+empty_feed:
+  user_id: 2 
+  feed_url: https://github.com/newuser.private.atom?token=notatoken

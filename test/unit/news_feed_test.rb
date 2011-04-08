@@ -3,14 +3,14 @@ require 'test_helper'
 class NewsFeedTest < ActiveSupport::TestCase
 
   test "test creating news items from feed" do
+    feed = news_feeds(:empty_feed)
+    xml = IO.read('test/fixtures/feeds/single_item.xml')
     assert_difference('NewsItem.count') do 
-      feed = news_feeds(:yoda_feed)
-      xml = IO.read('test/fixtures/feeds/single_item.xml')
       feed.create_news_items(xml)
     end
 
-    # this one plus the two fixtures
-    assert_equal NewsItem.count, 3
+    assert_equal 1, feed.news_items.length
+
   end
 
 end
