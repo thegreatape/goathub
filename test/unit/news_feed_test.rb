@@ -3,7 +3,7 @@ require 'date'
 
 class NewsFeedTest < ActiveSupport::TestCase
 
-  test "test creating news items from feed" do
+  test "creating news items from feed" do
     feed = news_feeds(:empty_feed)
     xml = IO.read('test/fixtures/feeds/single_item.xml')
     assert_difference('NewsItem.count') do 
@@ -22,8 +22,17 @@ class NewsFeedTest < ActiveSupport::TestCase
     assert_equal "https://secure.gravatar.com/avatar/50b46e7a1eeb1d4e8106b33f064a2c13?s=30&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png", item.thumb_url 
     assert_equal 'eagereyes closed issue 44 on polotek/libxmljs', item.title
     assert_match /\s*<blockquote>\s*Segfault when using XML Builder\s*<\/blockquote>\s*/, item.message
-
-
   end
+
+  #
+  # le stub tests
+  #
+  test "don't re-create existing news items" do
+  end
+
+  test "retrieving unread news items" do
+    # with pagination as well
+  end
+
 
 end
