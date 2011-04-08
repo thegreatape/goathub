@@ -2,7 +2,7 @@ require 'test_helper'
 
 class NewsFeedsControllerTest < ActionController::TestCase
   setup do
-    @news_feed = news_feeds(:one)
+    @news_feed = news_feeds(:yoda_feed)
   end
 
   test "should get index" do

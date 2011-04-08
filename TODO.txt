@@ -1,5 +1,10 @@
-tests for Users:
-  * authentication
+Users
+  * authentication 
+  * signup
 
-create NewsFeed object
-  * knows how consume a feed and turn it into NewsItems 
+NewsFeed
+  * parsing project out of item xml if present
+  * extract content + title into seperate field, free of presentation markup
+  * create new feed in test so fixtures aren't messing with our NewsItem count?
+  * how to mock update http calls to GitHub?
+

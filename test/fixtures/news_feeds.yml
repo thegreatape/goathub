@@ -1,10 +1,4 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
+yoda_feed:
   user_id: 1
   feed_url: https://github.com/yoda.private.atom?token=sdlfjsdlkfjsldf
-
-two:
-  user_id: 1
-  feed_url: https://github.com/dvader.private.atom?token=sdlfjsdlkfjsldf
   last_updated: 2011-04-07
