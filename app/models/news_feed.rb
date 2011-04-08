@@ -20,7 +20,7 @@ class NewsFeed < ActiveRecord::Base
       entry.each_recursive do |node|
         case node.name
         when 'link'
-          item.link = node.attribute('href')
+          item.link = node.attribute('href').value
         when 'author'
           node.each_element do |elem|
             item.author_name = elem.text if elem.name == 'name'
@@ -28,10 +28,17 @@ class NewsFeed < ActiveRecord::Base
           end
         # TODO create title field and extract text from
         # url-escaped markup in text field
+        when 'title'
+          item.title = node.text
+          match = node.text.match(/on (\w+\/\w+)/)
+          if match
+            item.project_name = match[1]
+            item.project_link = "https://github.com/#{match[1]}"
+          end
         when 'content'
           item.content = node.text
         when 'thumbnail'
-          item.thumb_url = node.attribute('url')
+          item.thumb_url = node.attribute('url').value
         when 'updated'
           item.date = DateTime.parse(node.text)
         end
