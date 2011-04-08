@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110408161405) do
+ActiveRecord::Schema.define(:version => 20110408180501) do
 
   create_table "news_feeds", :force => true do |t|
     t.integer  "user_id"
@@ -28,7 +28,6 @@ ActiveRecord::Schema.define(:version => 20110408161405) do
     t.datetime "date"
     t.string   "thumb_url"
     t.string   "link"
-    t.text     "content"
     t.boolean  "read"
     t.datetime "created_at"
     t.datetime "updated_at"

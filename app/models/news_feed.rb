@@ -26,8 +26,6 @@ class NewsFeed < ActiveRecord::Base
             item.author_name = elem.text if elem.name == 'name'
             item.author_link = elem.text if elem.name == 'uri'
           end
-        # TODO create title field and extract text from
-        # url-escaped markup in text field
         when 'title'
           item.title = node.text
           match = node.text.match(/on (\w+\/\w+)/)
@@ -36,7 +34,11 @@ class NewsFeed < ActiveRecord::Base
             item.project_link = "https://github.com/#{match[1]}"
           end
         when 'content'
-          item.content = node.text
+          # <content> contains entity-escaped HTML  
+          content_doc = REXML::Document.new(node.text)
+          REXML::XPath.match(content_doc.root, "//div[@class='message']").each do |message|
+            item.message = message.children.to_s
+          end
         when 'thumbnail'
           item.thumb_url = node.attribute('url').value
         when 'updated'

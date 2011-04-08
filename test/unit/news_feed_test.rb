@@ -21,7 +21,7 @@ class NewsFeedTest < ActiveSupport::TestCase
     assert_equal DateTime::parse('2011-04-07T17:14:58-07:00'), item.date
     assert_equal "https://secure.gravatar.com/avatar/50b46e7a1eeb1d4e8106b33f064a2c13?s=30&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png", item.thumb_url 
     assert_equal 'eagereyes closed issue 44 on polotek/libxmljs', item.title
-    #assert_equal 'Segfault when using XML Builder', item.message
+    assert_match /\s*<blockquote>\s*Segfault when using XML Builder\s*<\/blockquote>\s*/, item.message
 
 
   end
