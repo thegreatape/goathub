@@ -10,10 +10,13 @@
     = f.label :email
     = f.text_field :email
   .field
-    = f.label :hashed_password
-    = f.text_field :hashed_password
+    = f.label :password
+    = f.password_field :password
   .field
-    = f.label :salt
-    = f.text_field :salt
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation
+  .field
+    = f.label :feed_url
+    = f.text_field :feed_url
   .actions
     = f.submit 'Save'

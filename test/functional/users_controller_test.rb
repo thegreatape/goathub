@@ -8,7 +8,8 @@ class UsersControllerTest < ActionController::TestCase
     @vader = {
       :email => 'dvader@empire.mil',
       :password => 'YourLackOfFaith123',
-      :password_confirmation => 'YourLackOfFaith123'
+      :password_confirmation => 'YourLackOfFaith123',
+      :feed_url => 'https://github.com/dvader.private.atom?token=not-a-token'
     }
   end
 
@@ -31,11 +32,26 @@ class UsersControllerTest < ActionController::TestCase
     assert_redirected_to user_path(assigns(:user))
   end
 
+  test "should not create user with missing feed url" do
+    tauntaun = {
+      :email => "tauntaun@hoth.net",
+      :password => 'yaaaaaaaaaaaaarg',
+      :password_confirmation => 'yaaaaaaaaaaaaarg'
+    }
+
+    assert_no_difference('User.count') do
+      post :create, :user => tauntaun
+    end
+
+    assert_select '#error_explanation ul li', /News feed can't be blank/
+  end
+
   test "should not create user with invalid email address" do
     obiwan = {
       :email => "what is this I don't even",
       :password => 'not.these.droids',
-      :password_confirmation => 'not.these.droids'
+      :password_confirmation => 'not.these.droids',
+      :feed_url => 'https://github.com/obiwan.private.atom?token=not-a-token'
     }
     assert_no_difference('User.count') do
       post :create, :user => obiwan
@@ -48,7 +64,8 @@ class UsersControllerTest < ActionController::TestCase
     luke = {
       :email => 'luke@rebel-alliance.org',
       :password => 'what.wompa?',
-      :password_confirmation => 'oh.that.one'
+      :password_confirmation => 'oh.that.one',
+      :feed_url => 'https://github.com/luke.private.atom?token=not-a-token'
     }
     assert_no_difference('User.count') do
       post :create, :user => luke
@@ -68,7 +85,11 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should update user" do
-    put :update, :id => @yoda.to_param, :user => @yoda.attributes
+    update = {
+      :email => 'yoda@dagobah.net',
+      :feed_url => 'https://github.com/yodanew.private.atom?token=new'
+    }
+    put :update, :id => @yoda.to_param, :user => update
     assert_redirected_to user_path(assigns(:user))
   end
 
