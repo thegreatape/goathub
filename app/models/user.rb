@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_one :news_feed
+
   validates :email, 
     :presence => true, 
     :uniqueness => true,

@@ -1,4 +1,6 @@
 class NewsItem < ActiveRecord::Base
+  belongs_to :news_feed
+
   validates :author_name, :date, :link, :content, :thumb_url, :presence => true
   validates :link, :project_link, :author_link, :format => /^https:\/\//
   after_initialize :set_defaults

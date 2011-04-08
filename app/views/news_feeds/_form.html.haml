@@ -1,0 +1,19 @@
+= form_for @news_feed do |f|
+  -if @news_feed.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@news_feed.errors.count, "error")} prohibited this news_feed from being saved:"
+      %ul
+        - @news_feed.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :user_id
+    = f.text_field :user_id
+  .field
+    = f.label :feed_url
+    = f.text_field :feed_url
+  .field
+    = f.label :last_updated
+    = f.date_select :last_updated
+  .actions
+    = f.submit 'Save'

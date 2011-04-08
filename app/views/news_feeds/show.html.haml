@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b User:
+  = @news_feed.user_id
+%p
+  %b Feed url:
+  = @news_feed.feed_url
+%p
+  %b Last updated:
+  = @news_feed.last_updated
+
+= link_to 'Edit', edit_news_feed_path(@news_feed)
+\|
+= link_to 'Back', news_feeds_path

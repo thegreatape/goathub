@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'pp'
 
 class UsersControllerTest < ActionController::TestCase
   setup do

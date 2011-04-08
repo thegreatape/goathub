@@ -1,4 +1,6 @@
 Goathub::Application.routes.draw do
+  resources :news_feeds
+
   resources :users
 
   resources :news_items

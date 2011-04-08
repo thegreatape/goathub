@@ -10,7 +10,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110407041116) do
+ActiveRecord::Schema.define(:version => 20110408000419) do
+
+  create_table "news_feeds", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "feed_url"
+    t.date     "last_updated"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "news_items", :force => true do |t|
     t.string   "author_name"
@@ -24,6 +32,7 @@ ActiveRecord::Schema.define(:version => 20110407041116) do
     t.boolean  "read"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "news_feed_id"
   end
 
   create_table "users", :force => true do |t|
