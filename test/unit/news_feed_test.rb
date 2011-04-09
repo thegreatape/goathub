@@ -1,5 +1,6 @@
 require 'test_helper'
 require 'date'
+require 'fakeweb'
 
 class NewsFeedTest < ActiveSupport::TestCase
 
@@ -70,9 +71,19 @@ class NewsFeedTest < ActiveSupport::TestCase
     end
   end
 
+  test "fetching news feed" do
+    feed = news_feeds(:yoda_feed)
+    xml = IO.read('test/fixtures/feeds/three_items.xml')
+    FakeWeb.register_uri(:get, feed.feed_url, 
+                         :body => xml, 
+                         :content_type => 'application/atom+xml; charset=utf-8')
+    assert_difference('feed.news_items(true).length', 3) do
+      feed.fetch
+    end
+  end
+
   test "retrieving unread news items" do
     # with pagination as well
   end
-
 
 end
