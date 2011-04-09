@@ -51,7 +51,7 @@ class NewsFeed < ActiveRecord::Base
         #puts "--- didn't save! ---"
         #puts item.errors.full_messages
       #else 
-        #puts "SAVED"
+        #puts "saved #{item.title}"
       #end
 
     end

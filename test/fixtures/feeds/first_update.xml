@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/thegreatape.private</id>
+  <link type="text/html" rel="alternate" href="https://github.com/thegreatape"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/thegreatape.private.atom?token=2f41003cc55cb22bb1fd137d80a72a5a"/>
+  <title>Private Feed for thegreatape</title>
+  <updated>2011-04-09T08:05:08-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241794540</id>
+    <published>2011-04-09T08:05:08-07:00</published>
+    <updated>2011-04-09T08:05:08-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/wadey/node-thrift/compare/ae8be1ff8a...25c0eb4eb8"/>
+    <title>wadey pushed to master at wadey/node-thrift</title>
+    <author>
+      <name>wadey</name>
+          <email>wade@wades.im</email>
+          <uri>https://github.com/wadey</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2b3629571060965b03e885ba93c078fc?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/wadey&quot; class=&quot;committer&quot;&gt;wadey&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/25c0eb4eb85aa63cfb49a8e8c815bd57e2b8043a&quot;&gt;25c0eb4&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;update README with information on BufferedTransport&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1241778523</id>
+    <published>2011-04-09T07:55:51-07:00</published>
+    <updated>2011-04-09T07:55:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/wadey/node-thrift/pull/4"/>
+    <title>wadey merged pull request 4 on wadey/node-thrift</title>
+    <author>
+      <name>wadey</name>
+          <email>wade@wades.im</email>
+          <uri>https://github.com/wadey</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2b3629571060965b03e885ba93c078fc?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;implemention of BufferedTransport&lt;/blockquote&gt;
+    12 commits with 
+    2,665 additions and 
+    96 deletions
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241778521</id>
+    <published>2011-04-09T07:55:51-07:00</published>
+    <updated>2011-04-09T07:55:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/wadey/node-thrift/compare/c012903661...ae8be1ff8a"/>
+    <title>wadey pushed to master at wadey/node-thrift</title>
+    <author>
+      <name>wadey</name>
+          <email>wade@wades.im</email>
+          <uri>https://github.com/wadey</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2b3629571060965b03e885ba93c078fc?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/wadey&quot; class=&quot;committer&quot;&gt;wadey&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/ae8be1ff8af50607da52f51c06556f05842692e5&quot;&gt;ae8be1f&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;THRIFT-1129: Merge remote-tracking branch &amp;#39;tagomoris&amp;#47;master&amp;#39;&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/tagomoris&quot; class=&quot;committer&quot;&gt;tagomoris&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/5b77068121b6c10dd8ca9fee37f71e0018638f7b&quot;&gt;5b77068&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;fix to use both of FramedTransport and BufferedTransport&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/tagomoris&quot; class=&quot;committer&quot;&gt;tagomoris&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/3e2dde905171ed2139aa15edc43c90d72ded289c&quot;&gt;3e2dde9&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;implement BufferedTransport, and fix connection&amp;#47;server to support recovering of InputBufferUnderrunError&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;/wadey/node-thrift/compare/c012903661...ae8be1ff8a&quot;&gt;13 more commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1241599235</id>
+    <published>2011-04-09T05:13:16-07:00</published>
+    <updated>2011-04-09T05:13:16-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mojombo/jekyll/pull/309"/>
+    <title>dan opened pull request 309 on mojombo/jekyll</title>
+    <author>
+      <name>dan</name>
+          <email>dan@hivelogic.com</email>
+          <uri>https://github.com/dan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ccac01cefa0352e0014a8de5b4efcdfd?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;No Incremental&lt;/blockquote&gt;
+    2 commits with 
+    734 additions and 
+    2,099 deletions
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241558561</id>
+    <published>2011-04-09T04:33:26-07:00</published>
+    <updated>2011-04-09T04:33:26-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/compare/991683efa6...b658fba22e"/>
+    <title>kimchy pushed to master at elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/kimchy&quot; class=&quot;committer&quot;&gt;kimchy&lt;/a&gt; committed &lt;a href=&quot;/elasticsearch/elasticsearch/commit/b658fba22efb48a9ba082a7057fb716e7cb5bfe6&quot;&gt;b658fba&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;allow to copy openbitset into a sliced one&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241551115</id>
+    <published>2011-04-09T04:20:31-07:00</published>
+    <updated>2011-04-09T04:20:31-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/compare/49e2f55abd...991683efa6"/>
+    <title>kimchy pushed to master at elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/kimchy&quot; class=&quot;committer&quot;&gt;kimchy&lt;/a&gt; committed &lt;a href=&quot;/elasticsearch/elasticsearch/commit/991683efa6a01a5196f768d0421be8d8978ce448&quot;&gt;991683e&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;remove clearUnreferenced from caches, no longer need it&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241546166</id>
+    <published>2011-04-09T04:11:55-07:00</published>
+    <updated>2011-04-09T04:11:55-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/compare/c934f04b0c...49e2f55abd"/>
+    <title>kimchy pushed to master at elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/kimchy&quot; class=&quot;committer&quot;&gt;kimchy&lt;/a&gt; committed &lt;a href=&quot;/elasticsearch/elasticsearch/commit/49e2f55abd4c688b2aac5b3ddcac56cabaa5fb0b&quot;&gt;49e2f55&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;actually register the eviction listener with soft &amp;#47; resident filter cache&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1241532062</id>
+    <published>2011-04-09T03:57:35-07:00</published>
+    <updated>2011-04-09T03:57:35-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/issues/844"/>
+    <title>clintongormley opened issue 844 on elasticsearch/elasticsearch</title>
+    <author>
+      <name>clintongormley</name>
+          <email>clint@traveljury.com</email>
+          <uri>https://github.com/clintongormley</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d0dd23d18388ba0225bbb9bcba7ede83?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Field boost in mapping ignored by wildcard query string searches
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1241528333</id>
+    <published>2011-04-09T03:50:03-07:00</published>
+    <updated>2011-04-09T03:50:03-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/issues/842#issuecomment-977086"/>
+    <title>kimchy commented on issue 842 on elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;What do you get when you set monitor.network to TRACE in the logging file?&quot;&gt;
+      &lt;p&gt;What do you get when you set monitor.network to TRACE in the logging file?&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:GollumEvent/1241485678</id>
+    <published>2011-04-09T02:56:51-07:00</published>
+    <updated>2011-04-09T02:56:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mojombo/jekyll/wiki/Blog-Migrations"/>
+    <title>thomasf edited Blog-Migrations in the mojombo/jekyll wiki</title>
+    <author>
+      <name>thomasf</name>
+          <email>thomasf@jossystem.se</email>
+          <uri>https://github.com/thomasf</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1bbf3000607d27b8e448f4cace8ec092?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+        &lt;a href=&quot;/mojombo/jekyll/wiki/Blog-Migrations/_compare/eeb0e58^...eeb0e58&quot;&gt;See what changed →&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:GollumEvent/1241481886</id>
+    <published>2011-04-09T02:53:57-07:00</published>
+    <updated>2011-04-09T02:53:57-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mojombo/jekyll/wiki/Blog-Migrations"/>
+    <title>thomasf edited Blog-Migrations in the mojombo/jekyll wiki</title>
+    <author>
+      <name>thomasf</name>
+          <email>thomasf@jossystem.se</email>
+          <uri>https://github.com/thomasf</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1bbf3000607d27b8e448f4cace8ec092?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+        &lt;a href=&quot;/mojombo/jekyll/wiki/Blog-Migrations/_compare/92d148f^...92d148f&quot;&gt;See what changed →&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1241380408</id>
+    <published>2011-04-09T00:56:06-07:00</published>
+    <updated>2011-04-09T00:56:06-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mojombo/jekyll/issues/201#issuecomment-976851"/>
+    <title>argent-smith commented on issue 201 on mojombo/jekyll</title>
+    <author>
+      <name>argent-smith</name>
+          <email>argentoff@gmail.com</email>
+          <uri>https://github.com/argent-smith</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/c12d2963163d64a5e22ae0f55a471b6e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Try to set the locale correctly. See my [gist 911225](https://gist.github.com/911225).
+&quot;&gt;
+      &lt;p&gt;Try to set the locale correctly. See my &lt;a href=&quot;https://gist.github.com/911225&quot;&gt;gist 911225&lt;/a&gt;.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1241237501</id>
+    <published>2011-04-08T21:16:24-07:00</published>
+    <updated>2011-04-08T21:16:24-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/dekz/dcrypt"/>
+    <title>ncb000gt started watching dekz/dcrypt</title>
+    <author>
+      <name>ncb000gt</name>
+          <email>nicholas.j.campbell@gmail.com</email>
+          <uri>https://github.com/ncb000gt</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/795acba3ecda5352f28a3b0cbee3fd16?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    dcrypt's description:
+&lt;blockquote&gt;node.js openssl bindings&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1240934844</id>
+    <published>2011-04-08T16:47:48-07:00</published>
+    <updated>2011-04-08T16:47:48-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/compare/b71513a072...c934f04b0c"/>
+    <title>kimchy pushed to master at elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/kimchy&quot; class=&quot;committer&quot;&gt;kimchy&lt;/a&gt; committed &lt;a href=&quot;/elasticsearch/elasticsearch/commit/c934f04b0c0ca7dc745158e0c94f4e2f64afe46b&quot;&gt;c934f04&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;remove weak caching of filters and stick with only caching when needed &amp;#47; flagged &amp;#47; defaulted&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240899679</id>
+    <published>2011-04-08T16:27:38-07:00</published>
+    <updated>2011-04-08T16:27:38-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/frank06/riak-js/pull/54#issuecomment-976240"/>
+    <title>frank06 commented on pull request 54 on frank06/riak-js</title>
+    <author>
+      <name>frank06</name>
+          <email>francisco.treacy@gmail.com</email>
+          <uri>https://github.com/frank06</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5cb050a332d66c6c6e0da40cce6d9425?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;if you're feeling like it :)&quot;&gt;
+      &lt;p&gt;if you're feeling like it :)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240847473</id>
+    <published>2011-04-08T16:03:16-07:00</published>
+    <updated>2011-04-08T16:03:16-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-976164"/>
+    <title>limeblack commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>limeblack</name>
+          <uri>https://github.com/limeblack</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/6d7ed50c6225d607f4653cb14a2ce528?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;I seriously think we should add the semicolon to the end.  If someone is entering a javascript 1kb contest or needs some crazy minifications, they probably will be doing it manually anyways.
+
+Debugging something as simply as a semicolon can be annoying, and most importantly time consuming.  Lets just add it to the end and save humanity a little grief.&quot;&gt;
+      &lt;p&gt;I seriously think we should add the semicolon to the end. If someone is entering a javascript 1kb contest or needs some crazy minifications, they prob...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ForkEvent/1240778248</id>
+    <published>2011-04-08T15:32:30-07:00</published>
+    <updated>2011-04-08T15:32:30-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/throughnothing"/>
+    <title>throughnothing forked DelvarWorld/Ray-Frame</title>
+    <author>
+      <name>throughnothing</name>
+          <uri>https://github.com/throughnothing</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/764740c772a0c1b7f9926ec08147a18a?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    Forked repository is at &lt;a href=&quot;https://github.com/throughnothing/Ray-Frame&quot;&gt;throughnothing/Ray-Frame&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240491575</id>
+    <published>2011-04-08T14:02:54-07:00</published>
+    <updated>2011-04-08T14:02:54-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975708"/>
+    <title>aseemk commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>aseemk</name>
+          <uri>https://github.com/aseemk</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5af2930e39246c8339fa7ad8e394e96e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@wpalmer That's a really interesting way of looking at it!
+
+It seems to me though (and feel free to correct me if I'm wrong) that you're assuming concatenation happens before minification (by your statement that 'the uncompressed code is already broken').
+
+It's a valid use case, I think, where uglify([valid code]) and [valid code] are both fine when included separately, but when concatenated, break. I'm thus coming from the angle that uglify() should be robust to concatenation of its output.
+
+@jayferd I totally agree, but I think this is a bit of a red herring. GA and jQuery were just two examples; there are lots of other pre-minified scripts out there that aren't handily available on a CDN. E.g. modernizr, html5shi[m/v], belatedpngfix, jQuery plugins, etc.
+
+(Btw, if you're interested, my use case was a JS embed. We thus needed the result to be a single JS file. You can see the embed snippet on this page: http://zoom.it/h)
+
+&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/wpalmer&quot; class=&quot;user-mention&quot;&gt;@wpalmer&lt;/a&gt; That's a really interesting way of looking at it! It seems to me though (and feel free to correct me if I'm wrong) that you're assuming conca...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240458737</id>
+    <published>2011-04-08T13:55:26-07:00</published>
+    <updated>2011-04-08T13:55:26-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975676"/>
+    <title>jayferd commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>jayferd</name>
+          <email>jjmadkisson@gmail.com</email>
+          <uri>https://github.com/jayferd</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d27d2d2c1ea9aa3e6de208c3f126db46?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@aseemk: For your specific use case, I highly recommend serving both Google Analytics and jQuery in a separate `&amp;lt;script&amp;gt;` tag from a CDN.  Those libraries are common enough that using the CDN increases the probability of cache hits on the client.  Also, many browsers download scripts in parallel - so concatenating all your javascript into one file can actually slow the page down.  There's a pretty good article covering this [here](http://encosia.com/2008/12/10/3-reasons-why-you-should-let-google-host-jquery-for-you/).
+
+Anyways, it's not a huge deal for me.  If you want to concatenate javascript, you'd better `join(';')`.
+
+And if you're concatting pre-minified javascript with uglifyjs-minified javascript, I think there's usually a better way to do it.  I'm willing to be convinced otherwise, though.&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/aseemk&quot; class=&quot;user-mention&quot;&gt;@aseemk&lt;/a&gt;: For your specific use case, I highly recommend serving both Google Analytics and jQuery in a separate &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag from a CDN. Those librarie...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240454354</id>
+    <published>2011-04-08T13:54:02-07:00</published>
+    <updated>2011-04-08T13:54:02-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975672"/>
+    <title>wpalmer commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>wpalmer</name>
+          <uri>https://github.com/wpalmer</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/6226f6101f38cd27aeb456892754a8de?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Adding a trailing semicolon means that for any:
+[valid code] + [valid code] = [valid code], then
+uglify([valid code]) + [valid code] = [valid code]
+
+This is something, I think, which should be preserved.
+
+Adding a leading semicolon only helps a situation where the uncompressed code is already broken.&quot;&gt;
+      &lt;p&gt;Adding a trailing semicolon means that for any:
+[valid code] + [valid code] = [valid code], then
+uglify([valid code]) + [valid code] = [valid code] Th...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240453268</id>
+    <published>2011-04-08T13:53:07-07:00</published>
+    <updated>2011-04-08T13:53:07-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/frank06/riak-js/pull/54#issuecomment-975667"/>
+    <title>dandean commented on pull request 54 on frank06/riak-js</title>
+    <author>
+      <name>dandean</name>
+          <email>danwdean@gmail.com</email>
+          <uri>https://github.com/dandean</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/e29ffe8caa1bfbfe413b1a117f2fdce4?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;In the meantime, should I work up a patch to fix this in the riak-js HTTP client?&quot;&gt;
+      &lt;p&gt;In the meantime, should I work up a patch to fix this in the riak-js HTTP client?&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240414484</id>
+    <published>2011-04-08T13:42:33-07:00</published>
+    <updated>2011-04-08T13:42:33-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975611"/>
+    <title>aseemk commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>aseemk</name>
+          <uri>https://github.com/aseemk</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5af2930e39246c8339fa7ad8e394e96e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Hmm? Dynamically generated JS is one straightforward use case where this is a real gotcha. Concatening with a pre-minified file from another source (e.g. the Google Analytics example I just gave above) is another.
+
+Btw, GA isn't the only example of the second. [jQuery](http://code.jquery.com/jquery.min.js) is another big one (no leading semi-colon), as are several jQuery plugins. In general, in this day of mashups, it's super common to grab minified scripts and just use them, similar to grabbing a binary instead of compiling from source.&quot;&gt;
+      &lt;p&gt;Hmm? Dynamically generated JS is one straightforward use case where this is a real gotcha. Concatening with a pre-minified file from another source (e...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240399329</id>
+    <published>2011-04-08T13:37:14-07:00</published>
+    <updated>2011-04-08T13:37:14-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975590"/>
+    <title>michaelficarra commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>michaelficarra</name>
+          <uri>https://github.com/michaelficarra</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/24fb0088507077f7852adaec4f6b679f?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@aseemk: I was assuming both files being concatenated were minified. I never even considered the use case of someone arbitrarily concatenating minified and non-minified files without considering any consequences. This sounds like a pretty ridiculous use case now. Who would do that?&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/aseemk&quot; class=&quot;user-mention&quot;&gt;@aseemk&lt;/a&gt;: I was assuming both files being concatenated were minified. I never even considered the use case of someone arbitrarily concatenating minifie...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240370359</id>
+    <published>2011-04-08T13:30:28-07:00</published>
+    <updated>2011-04-08T13:30:28-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975562"/>
+    <title>aseemk commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>aseemk</name>
+          <uri>https://github.com/aseemk</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5af2930e39246c8339fa7ad8e394e96e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@michaelficarra Hey they're actually not mutually exclusive, and neither solves the problem by itself.
+
+Concatenation example 1:
+
+1. (Minified file)
+2. (Some other code)
+
+Concatenation example 2:
+
+1. (Some other code)
+2. (Minified file)
+
+If the minified file doesn't have both a leading and trailing semi-colon, the result will be a bug if the other code doesn't have the opposite.
+
+You want a leading semi-colon to be robust to whatever comes before it. You want a trailing semi-colon to be robust to whatever comes after it.
+
+Thanks for being open and considering it. =)&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/michaelficarra&quot; class=&quot;user-mention&quot;&gt;@michaelficarra&lt;/a&gt; Hey they're actually not mutually exclusive, and neither solves the problem by itself. Concatenation example 1: (Minified file)
+(Some ...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240363025</id>
+    <published>2011-04-08T13:26:56-07:00</published>
+    <updated>2011-04-08T13:26:56-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975552"/>
+    <title>michaelficarra commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>michaelficarra</name>
+          <uri>https://github.com/michaelficarra</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/24fb0088507077f7852adaec4f6b679f?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@aseemk: Why are you in support of adding the semicolon at the beginning of the file? According to the reasons in [my comment above](https://github.com/mishoo/UglifyJS/issues/126#issue/126/comment/975268), it looks like it would be better to add the semicolon at the end. If we choose to add it at the beginning, it looks like we will have to do so more frequently.&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/aseemk&quot; class=&quot;user-mention&quot;&gt;@aseemk&lt;/a&gt;: Why are you in support of adding the semicolon at the beginning of the file? According to the reasons in &lt;a href=&quot;https://github.com/mishoo/UglifyJS/issues/126#issue/126/comment/975268&quot;&gt;my comment above&lt;/a&gt;, it looks like it w...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240348616</id>
+    <published>2011-04-08T13:21:20-07:00</published>
+    <updated>2011-04-08T13:21:20-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975525"/>
+    <title>aseemk commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>aseemk</name>
+          <uri>https://github.com/aseemk</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5af2930e39246c8339fa7ad8e394e96e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Btw, I think if you're going to have one, it's worth having the other too, because it's the same protection, just for different ordering.
+
+If it helps illustrate, the situation I was in when I ran into it was that I was bundling the minfiied Google Analytics with a JavaScript embed I was serving. So my server-side code looked like this:
+
+1. Spit out static base embed JS.
+2. Spit out Google Analytics JS.
+3. Spit out a bit of dynamic JS for the particular embed being served.
+
+I was the one minifying my static base embed JS. But I *was **not** the one minifying the Google Analytics JS*; I was serving a cached copy of the official, already-minified [ga.js](http://www.google-analytics.com/ga.js) (so the advice of 'concatenate before minifying' doesn't apply).
+
+Note how ga.js does **not** begin with a leading semi-colon!
+
+Thus when my minifier didn't output a trailing semi-colon in my base embed JS, nothing worked. And this was a nightmare to debug! I had no idea what was happening, and there was nothing I could simply type into Google to tell me 'you need to insert a semi-colon when merging JS files'. I certainly never thought to scour the manual of my minifier which was always working fine for single files before.
+
+Having experienced this backward default is why I'm so persistent here. I've just yet to hear a good reason why saving that one byte outweighs the hour of wasted debugging time.
+
+(Btw, ga.js also doesn't include a trailing semi-colon, which would have bit me if my dynamic JS didn't begin with a `var`. This is why I'm also a fan of minifiers outputting a leading semi-colon.)&quot;&gt;
+      &lt;p&gt;Btw, I think if you're going to have one, it's worth having the other too, because it's the same protection, just for different ordering. If it helps ...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240323009</id>
+    <published>2011-04-08T13:12:23-07:00</published>
+    <updated>2011-04-08T13:12:23-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975492"/>
+    <title>aseemk commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>aseemk</name>
+          <uri>https://github.com/aseemk</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/5af2930e39246c8339fa7ad8e394e96e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@alexo:
+
+&amp;gt; IMHO, the last semicolon issue can be handled by the code which performs the merging.
+
+Yes, of course, it's trivial to account for --- *but only if you know that you need to do so*. I was totally serious when I asked how many non-expert JS developers would be aware of this.
+
+@michaelficarra:
+
+&amp;gt; At most, there should be a warning in the README. Recommend that either the concatenation happens before minification or is done using a semicolon as a separator.
+
+This feels like basic usability to me: software should 'just work' by default; you shouldn't have to know or read about all of the quirks and gotchas and manually account for them.
+
+If supporting this was costly, I would understand. But it's *one extra byte*. Why would you not support it by default so that it 'just works' in every case?
+
+--
+
+Btw, I totally agree about adding the semi-colon in the front too. Just curious, why is that any different to you guys?
+
+(To me, in both cases, you're making the resulting code robust, at the cost of one extra byte.)
+
+Thanks for bearing with my persistence. =)&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/alexo&quot; class=&quot;user-mention&quot;&gt;@alexo&lt;/a&gt;: IMHO, the last semicolon issue can be handled by the code which performs the merging. Yes, of course, it's trivial to account for --- &lt;em&gt;but only...&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240188876</id>
+    <published>2011-04-08T12:18:24-07:00</published>
+    <updated>2011-04-08T12:18:24-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975268"/>
+    <title>michaelficarra commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>michaelficarra</name>
+          <uri>https://github.com/michaelficarra</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/24fb0088507077f7852adaec4f6b679f?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@jayferd: Well, a valid program could never end in `return foo`, but `void foo`, `+foo`, `foo.bar`, or just `foo` are definitely common, problematic constructs. `exports.myPublicFunction = publicFnDefinedAbove` is a common way to end a CommonJS file, and `function ...`, `var ...`, `for(...`, and other keywords are common ways to start a JS file.
+
+**edit:** So, the current list of program beginnings that would need to be prefixed with a semicolon: `+`, `-`, `[`, `(`, any keyword, and any identifier. Anything else?
+
+**edit 2:** And possibly harmful constructs with which to end a program: any identifier. Anything else?&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/jayferd&quot; class=&quot;user-mention&quot;&gt;@jayferd&lt;/a&gt;: Well, a valid program could never end in &lt;code&gt;return foo&lt;/code&gt;, but &lt;code&gt;void foo&lt;/code&gt;, &lt;code&gt;+foo&lt;/code&gt;, &lt;code&gt;foo.bar&lt;/code&gt;, or just &lt;code&gt;foo&lt;/code&gt; are definitely common, problematic constructs....&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:GollumEvent/1240181928</id>
+    <published>2011-04-08T12:16:03-07:00</published>
+    <updated>2011-04-08T12:16:03-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/senchalabs/connect/wiki/Home"/>
+    <title>tdebarochez edited Home in the senchalabs/connect wiki</title>
+    <author>
+      <name>tdebarochez</name>
+          <uri>https://github.com/tdebarochez</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ad4a6871d3993c75210b0e98c2c070fe?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+        &lt;a href=&quot;/senchalabs/connect/wiki/Home/_compare/c6005cd^...c6005cd&quot;&gt;See what changed →&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240169873</id>
+    <published>2011-04-08T12:09:49-07:00</published>
+    <updated>2011-04-08T12:09:49-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975236"/>
+    <title>jayferd commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>jayferd</name>
+          <email>jjmadkisson@gmail.com</email>
+          <uri>https://github.com/jayferd</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d27d2d2c1ea9aa3e6de208c3f126db46?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Hm.  If you toss in `+` and `-`, it would as long as all your files don't end with an identifier - which should be the case for good code.  Otherwise I'm thinking of this edge case:
+
+    ['return foo', 'function() { ... }'].join // =&amp;gt; 'return foofunction() { ... }'
+
+Although maybe this isn't an important case?  Either way, I think prefixing with a semicolon is in general preferable to postfixing, since it also provides a measure of safety in a more general context.  Ideas?&quot;&gt;
+      &lt;p&gt;Hm. If you toss in &lt;code&gt;+&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;, it would as long as all your files don't end with an identifier - which should be the case for good code. Otherwise I'm th...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1240053758</id>
+    <published>2011-04-08T11:36:47-07:00</published>
+    <updated>2011-04-08T11:36:47-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-975065"/>
+    <title>michaelficarra commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>michaelficarra</name>
+          <uri>https://github.com/michaelficarra</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/24fb0088507077f7852adaec4f6b679f?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;@jayferd: nice idea. Would this handle all problematic cases?&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/jayferd&quot; class=&quot;user-mention&quot;&gt;@jayferd&lt;/a&gt;: nice idea. Would this handle all problematic cases?&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1239984295</id>
+    <published>2011-04-08T11:18:26-07:00</published>
+    <updated>2011-04-08T11:18:26-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/mishoo/UglifyJS/issues/126#issuecomment-974980"/>
+    <title>jayferd commented on issue 126 on mishoo/UglifyJS</title>
+    <author>
+      <name>jayferd</name>
+          <email>jjmadkisson@gmail.com</email>
+          <uri>https://github.com/jayferd</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d27d2d2c1ea9aa3e6de208c3f126db46?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;There's also the option of having uglifyjs insert a semicolon at the beginning of a file that starts with `(` or `[`.  That's probably good safe practice anyways, if uglified files are to interact with other unpredictable code that might end with a function literal expression, for example.&quot;&gt;
+      &lt;p&gt;There's also the option of having uglifyjs insert a semicolon at the beginning of a file that starts with &lt;code&gt;(&lt;/code&gt; or &lt;code&gt;[&lt;/code&gt;. That's probably good safe practice a...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1239572659</id>
+    <published>2011-04-08T09:34:48-07:00</published>
+    <updated>2011-04-08T09:34:48-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/vim-scripts/UltraBlog"/>
+    <title>throughnothing started watching vim-scripts/UltraBlog</title>
+    <author>
+      <name>throughnothing</name>
+          <uri>https://github.com/throughnothing</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/764740c772a0c1b7f9926ec08147a18a?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    UltraBlog's description:
+&lt;blockquote&gt;Ultimate Vim blogging plugin&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1239389234</id>
+    <published>2011-04-08T08:49:51-07:00</published>
+    <updated>2011-04-08T08:49:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/issues/843"/>
+    <title>kimchy closed issue 843 on elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      JMX: Don't use node id and name as part of the jmx registration, use static org.elasticsearch
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1239389233</id>
+    <published>2011-04-08T08:49:51-07:00</published>
+    <updated>2011-04-08T08:49:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/elasticsearch/elasticsearch/compare/388f4febba...b71513a072"/>
+    <title>kimchy pushed to master at elasticsearch/elasticsearch</title>
+    <author>
+      <name>kimchy</name>
+          <email>kimchy@gmail.com</email>
+          <uri>https://github.com/kimchy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/fd44bb3c96e34e000c5453a0078900d6?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/kimchy&quot; class=&quot;committer&quot;&gt;kimchy&lt;/a&gt; committed &lt;a href=&quot;/elasticsearch/elasticsearch/commit/b71513a072bed77bcd9b329df06caaecb6dc1bcb&quot;&gt;b71513a&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;JMX: Don&amp;#39;t use node id and name as part of the jmx registration, use static org.elasticsearch, closes #843.&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
+

@@ -24,6 +24,15 @@ class NewsFeedTest < ActiveSupport::TestCase
     assert_match /\s*<blockquote>\s*Segfault when using XML Builder\s*<\/blockquote>\s*/, item.message
   end
 
+  test "creating news items from feed with multiple items" do
+    feed = news_feeds(:empty_feed)
+    xml = IO.read('test/fixtures/feeds/three_items.xml')
+    assert_equal 0, feed.news_items(true).length
+    feed.create_news_items(xml)
+
+    assert_equal 3, feed.news_items(true).length
+  end
+
   #
   # le stub tests
   #

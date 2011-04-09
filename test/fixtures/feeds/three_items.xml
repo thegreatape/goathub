@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/thegreatape.private</id>
+  <link type="text/html" rel="alternate" href="https://github.com/thegreatape"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/thegreatape.private.atom?token=2f41003cc55cb22bb1fd137d80a72a5a"/>
+  <title>Private Feed for thegreatape</title>
+  <updated>2011-04-09T08:05:08-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241794540</id>
+    <published>2011-04-09T08:05:08-07:00</published>
+    <updated>2011-04-09T08:05:08-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/wadey/node-thrift/compare/ae8be1ff8a...25c0eb4eb8"/>
+    <title>wadey pushed to master at wadey/node-thrift</title>
+    <author>
+      <name>wadey</name>
+          <email>wade@wades.im</email>
+          <uri>https://github.com/wadey</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2b3629571060965b03e885ba93c078fc?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/wadey&quot; class=&quot;committer&quot;&gt;wadey&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/25c0eb4eb85aa63cfb49a8e8c815bd57e2b8043a&quot;&gt;25c0eb4&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;update README with information on BufferedTransport&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1241778523</id>
+    <published>2011-04-09T07:55:51-07:00</published>
+    <updated>2011-04-09T07:55:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/wadey/node-thrift/pull/4"/>
+    <title>wadey merged pull request 4 on wadey/node-thrift</title>
+    <author>
+      <name>wadey</name>
+          <email>wade@wades.im</email>
+          <uri>https://github.com/wadey</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2b3629571060965b03e885ba93c078fc?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;implemention of BufferedTransport&lt;/blockquote&gt;
+    12 commits with 
+    2,665 additions and 
+    96 deletions
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1241778521</id>
+    <published>2011-04-09T07:55:51-07:00</published>
+    <updated>2011-04-09T07:55:51-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/wadey/node-thrift/compare/c012903661...ae8be1ff8a"/>
+    <title>wadey pushed to master at wadey/node-thrift</title>
+    <author>
+      <name>wadey</name>
+          <email>wade@wades.im</email>
+          <uri>https://github.com/wadey</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/2b3629571060965b03e885ba93c078fc?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/wadey&quot; class=&quot;committer&quot;&gt;wadey&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/ae8be1ff8af50607da52f51c06556f05842692e5&quot;&gt;ae8be1f&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;THRIFT-1129: Merge remote-tracking branch &amp;#39;tagomoris&amp;#47;master&amp;#39;&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/tagomoris&quot; class=&quot;committer&quot;&gt;tagomoris&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/5b77068121b6c10dd8ca9fee37f71e0018638f7b&quot;&gt;5b77068&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;fix to use both of FramedTransport and BufferedTransport&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;a href=&quot;/tagomoris&quot; class=&quot;committer&quot;&gt;tagomoris&lt;/a&gt; committed &lt;a href=&quot;/wadey/node-thrift/commit/3e2dde905171ed2139aa15edc43c90d72ded289c&quot;&gt;3e2dde9&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;implement BufferedTransport, and fix connection&amp;#47;server to support recovering of InputBufferUnderrunError&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;/wadey/node-thrift/compare/c012903661...ae8be1ff8a&quot;&gt;13 more commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
+
