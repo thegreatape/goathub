@@ -1,0 +1,79 @@
+$foreground: #FCFFF5
+$bg-start: #3E606F
+$bg-end: #91AA9D
+$text: #193441
+$link: #40627C
+$border: #c4cae2
+
+body
+  margin: 0
+  padding: 0
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif
+  font-size: 1.3em
+  background: -moz-linear-gradient(top, $bg-start 0%, $bg-end 100%)
+  background: -webkit-gradient(linear, left top, left bottom, from($bg-start), to($bg-end))
+  color: $text
+
+a
+  color: $link
+
+.head
+  h1
+    font-size: 3.5em
+    text-shadow: lighten($text, 40%) 2px 2px 2px
+    padding-top: 10px
+    margin-top: 0
+    text-align: center
+
+.wrap
+  margin: 0 auto
+  border: 1px solid darken($bg-end, 30%)
+  border-top: none
+  width: 600px
+  background: $foreground
+  height: 100%
+  min-height: 600px
+  padding: 30px
+
+.content
+  line-height: 1.3em
+
+
+/* imported from scaffold styles */
+div.field, div.actions 
+  margin-bottom: 10px
+
+
+#notice 
+  color: green
+
+.field_with_errors
+  padding: 2px
+  background-color: red
+  display: table
+
+
+#error_explanation 
+  width: 450px
+  border: 2px solid red
+  padding: 7px
+  padding-bottom: 0
+  margin-bottom: 20px
+  background-color: #f0f0f0
+
+
+#error_explanation h2 
+  text-align: left
+  font-weight: bold
+  padding: 5px 5px 5px 15px
+  font-size: 12px
+  margin: -7px
+  margin-bottom: 0px
+  background-color: #c00
+  color: #fff
+
+
+#error_explanation ul li 
+  font-size: 12px
+  list-style: square
+
