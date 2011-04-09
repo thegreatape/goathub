@@ -64,12 +64,6 @@ class NewsFeed < ActiveRecord::Base
         end
         item.news_feed_id = self.id
         item.save
-        #if !item.save
-        #puts "--- didn't save! ---"
-        #puts item.errors.full_messages
-        #else 
-        #puts "saved #{item.title}"
-        #end
       end
     end
 
