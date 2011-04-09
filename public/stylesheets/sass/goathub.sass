@@ -19,6 +19,7 @@ a
 
 .head
   h1
+    color: $text
     background: url(../images/goat.png) no-repeat 90% top 
     margin-left: -100px
     font-size: 3.5em
@@ -44,9 +45,13 @@ a
 
 
 /* imported from scaffold styles */
-div.field, div.actions 
+div.field
   margin-bottom: 10px
-
+  label
+    display: block 
+  input
+    width: 400px
+    font-size: 1.0em
 
 #notice 
   color: green

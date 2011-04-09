@@ -13,12 +13,6 @@ class UsersControllerTest < ActionController::TestCase
     }
   end
 
-  test "should get index" do
-    get :index
-    assert_response :success
-    assert_not_nil assigns(:users)
-  end
-
   test "should get new" do
     get :new
     assert_response :success
@@ -29,7 +23,7 @@ class UsersControllerTest < ActionController::TestCase
       post :create, :user => @vader
     end
 
-    assert_redirected_to user_path(assigns(:user))
+    assert_redirected_to news_feed_path(assigns(:user).news_feed)
   end
 
   test "should not create user with missing feed url" do
@@ -72,16 +66,6 @@ class UsersControllerTest < ActionController::TestCase
     end
 
     assert_select '#error_explanation ul li', /Password doesn't match confirmation/
-  end
-
-  test "should show user" do
-    get :show, :id => @yoda.to_param
-    assert_response :success
-  end
-
-  test "should get edit" do
-    get :edit, :id => @yoda.to_param
-    assert_response :success
   end
 
   test "should update user" do
