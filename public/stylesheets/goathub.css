@@ -11,11 +11,15 @@ a {
   color: #40627c; }
 
 .head h1 {
+  background: url(../images/goat.png) no-repeat 90% top;
+  margin-left: -100px;
   font-size: 3.5em;
-  text-shadow: #63a4c3 2px 2px 2px;
+  text-shadow: #438caf 2px 2px 4px;
   padding-top: 10px;
   margin-top: 0;
   text-align: center; }
+.head a {
+  text-decoration: none; }
 
 .wrap {
   margin: 0 auto;
