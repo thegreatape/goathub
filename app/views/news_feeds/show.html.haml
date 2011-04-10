@@ -2,14 +2,21 @@
 
 %p
   %b 
-    Last updated
-    = distance_of_time_in_words(@news_feed.last_updated, Time.now)
+    - if @news_feed.last_updated
+      Last updated
+      = distance_of_time_in_words(@news_feed.last_updated, Time.now)
+      ago
 .feed
-  - @news_feed.news_buckets.each do |name,items|
-    %p
-      %b= name
-      - items.each do |item|
-        %p
-          = item.title
-          = distance_of_time_in_words(item.date, Time.now)
-          ago
+  - buckets = @news_feed.news_buckets
+  - buckets.each do |name,items|
+    .bucket
+      .title= name
+      .items
+        - items.each do |item|
+          %p
+            = image_tag item.thumb_url
+            = item.title
+            = distance_of_time_in_words(item.date, Time.now)
+            ago
+  - if buckets.length == 0
+    %p Looks like we're still in the process of fetching your feed from GitHub. Refresh this page in a few minutes and we'll be right back...

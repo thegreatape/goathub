@@ -35,6 +35,25 @@ a {
 .content {
   line-height: 1.3em; }
 
+.feed .bucket {
+  border: 1px solid #c4cae2;
+  margin-bottom: 20px;
+  font-size: 0.6em;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px; }
+  .feed .bucket .title {
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-top-left-radius: 20px;
+    -moz-border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #91aa9d;
+    padding: 10px; }
+  .feed .bucket .items {
+    padding: 10px; }
+
 /* imported from scaffold styles */
 div.field {
   margin-bottom: 10px; }

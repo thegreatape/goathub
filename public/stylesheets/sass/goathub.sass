@@ -3,6 +3,7 @@ $bg-start: #3E606F
 $bg-end: #91AA9D
 $text: #193441
 $link: #40627C
+$border-radius: 20px
 $border: #c4cae2
 
 body
@@ -42,6 +43,26 @@ a
 
 .content
   line-height: 1.3em
+
+.feed
+  .bucket
+    border: 1px solid $border
+    margin-bottom: 20px
+    font-size: 0.6em
+    -webkit-border-radius: $border-radius
+    -moz-border-radius: $border-radius
+    .title
+      -webkit-border-top-left-radius: $border-radius 
+      -webkit-border-top-right-radius: $border-radius 
+      -moz-border-top-left-radius: $border-radius 
+      -moz-border-top-right-radius: $border-radius 
+      text-align: center
+      font-size: 1.4em
+      font-weight: bold
+      background: $bg-end
+      padding: 10px
+    .items
+      padding: 10px
 
 
 /* imported from scaffold styles */
