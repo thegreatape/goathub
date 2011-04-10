@@ -1,16 +1,5 @@
-* user authentication 
 * update user feed on signup
-* remove extraneous views / actions
 * action to mark feeds as read
-* method to retrieve unread items
-* method to group unread items
-
-Pages:
-* unauthed index page
-* log in auth page
-* logged-in news feed
-* sign-up page
-
-Future:
+* fixed-point gradient on gutters
 * hit GitHub API to determine which are user-watching items
   and which are repo-watching items

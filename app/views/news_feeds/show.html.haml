@@ -1,11 +1,15 @@
 %p#notice= notice
 
 %p
-  %b Last updated:
-  = @news_feed.last_updated
+  %b 
+    Last updated
+    = distance_of_time_in_words(@news_feed.last_updated, Time.now)
 .feed
   - @news_feed.news_buckets.each do |name,items|
     %p
       %b= name
       - items.each do |item|
-        %p= item.title
+        %p
+          = item.title
+          = distance_of_time_in_words(item.date, Time.now)
+          ago
