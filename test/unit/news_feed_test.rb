@@ -82,8 +82,28 @@ class NewsFeedTest < ActiveSupport::TestCase
     end
   end
 
-  test "retrieving unread news items" do
-    # with pagination as well
+  test "retrieving news items in buckets" do
+    feed = news_feeds(:empty_feed)
+    xml = IO.read('test/fixtures/feeds/three_items.xml')
+
+    feed.create_news_items(xml)
+    assert_equal 1, feed.news_buckets.length
+    assert_equal "wadey/node-thrift", feed.news_buckets[0][0]
   end
 
+  test "retrieving buckets in order" do
+    feed = news_feeds(:empty_feed)
+    first_update = IO.read('test/fixtures/feeds/first_update.xml')
+    feed.create_news_items(first_update)
+
+    buckets = feed.news_buckets
+    prev_max = nil
+    buckets.each do |bucket|
+      max = bucket[1].max_by {|a| a.date}.date
+      unless prev_max.nil?
+        assert max < prev_max, "Buckets are out of desc date order" 
+      end
+      prev_max = max
+    end
+  end
 end

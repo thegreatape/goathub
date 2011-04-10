@@ -47,10 +47,11 @@ class NewsFeed < ActiveRecord::Base
             end
           when 'title'
             item.title = node.text
-            match = node.text.match(/on (\w+\/\w+)/)
+            # attempt to extract project name from title
+            match = node.text.match(/(on|at) (\w+\/[\w-]+)/)
             if match
-              item.project_name = match[1]
-              item.project_link = "https://github.com/#{match[1]}"
+              item.project_name = match[2]
+              item.project_link = "https://github.com/#{match[2]}"
             end
           when 'content'
             # <content> contains entity-escaped HTML  
@@ -69,6 +70,18 @@ class NewsFeed < ActiveRecord::Base
 
     self.last_updated = DateTime.parse(doc.root.elements['updated'].text)
     self.save
+  end
+
+  def news_buckets(offset=0, limit=35)
+    buckets = Hash.new {|hash, key| hash[key] = [] }
+    self.news_items.order('date desc').limit(limit).offset(offset).each do |item|
+      buckets[item.project_name || item.author_name] << item
+    end
+    return buckets.to_a.sort do |a,b|
+      a_max = a[1].max_by {|i| i.date}.date
+      b_max = b[1].max_by {|i| i.date}.date
+      b_max <=> a_max
+    end
   end
 
 end

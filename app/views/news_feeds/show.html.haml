@@ -1,15 +1,11 @@
 %p#notice= notice
 
 %p
-  %b User:
-  = @news_feed.user_id
-%p
-  %b Feed url:
-  = @news_feed.feed_url
-%p
   %b Last updated:
   = @news_feed.last_updated
-
-= link_to 'Edit', edit_news_feed_path(@news_feed)
-\|
-= link_to 'Back', news_feeds_path
+.feed
+  - @news_feed.news_buckets.each do |name,items|
+    %p
+      %b= name
+      - items.each do |item|
+        %p= item.title

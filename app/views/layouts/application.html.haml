@@ -11,6 +11,8 @@
         = link_to root_path do
           %h1 GoatHub
         - if session[:user_id]
+          = link_to "My Feed", news_feed_path(User.find_by_id(session[:user_id]).news_feed)
+          |
           = link_to "Log Out", logout_path, {:method => 'delete'}
       .content
         = yield
