@@ -1,9 +1,11 @@
 yoda:
+  id: 1
   email: yoda@dagobah.org
   hashed_password: asd3q43wder3wjaedljsfdiefjsd
   salt: NaCl22322
 
 newuser:
+  id: 2
   email: fng@gmail.com
   hashed_password: sdfjl,skdjfksdlfjslkdfj734sd
   salt: NaCl34813
