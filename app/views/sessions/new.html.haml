@@ -1,0 +1,14 @@
+.goathub_form
+  -if flash[:alert]
+    #notice
+      = flash[:alert]
+= form_tag do 
+  %legend Log In
+  .field
+    %label{:for => "email"} Email:
+    = text_field_tag :email, params[:email]
+  .field
+    %label{:for => "password"} Password:
+    = password_field_tag :password, params[:password]
+  %div
+    = submit_tag "Login"

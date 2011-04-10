@@ -8,6 +8,9 @@
   %body
     .wrap
       .head
-        = link_to raw('<h1>GoatHub</h1>'), root_path
+        = link_to root_path do
+          %h1 GoatHub
+        - if session[:user_id]
+          = link_to "Log Out", logout_path, {:method => 'delete'}
       .content
         = yield
