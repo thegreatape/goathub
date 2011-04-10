@@ -23,6 +23,7 @@ class UsersControllerTest < ActionController::TestCase
       post :create, :user => @vader
     end
 
+    assert_equal User.find_by_email(@vader[:email]).id, session[:user_id]
     assert_redirected_to news_feed_path(assigns(:user).news_feed)
   end
 
