@@ -3,6 +3,14 @@ require('date')
 require('net/https')
 require('uri')
 
+class UpdateNewsFeed
+  @queue = :news_feed_updates
+
+  def self.perform(feed_id)
+    NewsFeed.find(feed_id).fetch
+  end
+end
+
 class NewsFeed < ActiveRecord::Base
   has_many :news_items
   belongs_to :user

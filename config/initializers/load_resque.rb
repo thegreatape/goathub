@@ -1,0 +1,2 @@
+require 'resque'
+require 'jobs'
