@@ -26,6 +26,15 @@ class UsersControllerTest < ActionController::TestCase
     assert_equal User.find_by_email(@vader[:email]).id, session[:user_id]
     assert_redirected_to news_feed_path(assigns(:user).news_feed)
   end
+  
+  test "should update user's feed after creation" do
+    xml = IO.read('test/fixtures/feeds/three_items.xml')
+    FakeWeb.register_uri(:get, @vader[:feed_url], 
+                         :body => xml, 
+                         :content_type => 'application/atom+xml; charset=utf-8')
+    post :create, :user => @vader
+    assert_equal 3, User.find_by_email(@vader[:email]).news_feed.news_items.length
+  end
 
   test "should not create user with missing feed url" do
     tauntaun = {
