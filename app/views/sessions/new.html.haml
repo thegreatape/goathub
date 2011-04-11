@@ -3,7 +3,7 @@
     #notice
       = flash[:alert]
 = form_tag do 
-  %legend Log In
+  %h2 Log In
   .field
     %label{:for => "email"} Email:
     = text_field_tag :email, params[:email]

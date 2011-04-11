@@ -16,7 +16,10 @@
     = f.label :password_confirmation
     = f.password_field :password_confirmation
   .field
-    = f.label :feed_url
+    = f.label :feed_url, "GitHub RSS Feed Url"
     = f.text_field :feed_url
+    %p.explanation 
+      You can get the RSS feed from your dashboard:
+      = image_tag "feed.png"
   .actions
     = f.submit 'Save'
