@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110411022143) do
+ActiveRecord::Schema.define(:version => 20110411155407) do
 
   create_table "news_feeds", :force => true do |t|
     t.integer  "user_id"
@@ -36,6 +36,8 @@ ActiveRecord::Schema.define(:version => 20110411022143) do
     t.string   "title"
     t.string   "message"
   end
+
+  add_index "news_items", ["date", "news_feed_id"], :name => "index_news_items_on_date_and_news_feed_id"
 
   create_table "users", :force => true do |t|
     t.string   "email"
