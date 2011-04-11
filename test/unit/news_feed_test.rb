@@ -38,6 +38,18 @@ class NewsFeedTest < ActiveSupport::TestCase
     assert_equal updated, old_last_update.last_updated
   end 
 
+  test "polling github updates last_polled" do
+    now = Time.now
+    feed = news_feeds(:empty_feed)
+    xml = IO.read('test/fixtures/feeds/single_item.xml')
+    FakeWeb.register_uri(:get, feed.feed_url, 
+                         :body => xml, 
+                         :content_type => 'application/atom+xml; charset=utf-8')
+
+    feed.fetch
+    assert feed.last_polled > now, "Last polled time didn't update"
+  end 
+
   test "creating news items from feed with multiple items" do
     feed = news_feeds(:empty_feed)
     xml = IO.read('test/fixtures/feeds/three_items.xml')

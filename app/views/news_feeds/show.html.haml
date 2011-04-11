@@ -1,11 +1,14 @@
 %p#notice= notice
 
 %p
-  %b 
-    - if @news_feed.last_updated
-      Last updated
-      = distance_of_time_in_words(@news_feed.last_updated, Time.now)
-      ago
+  - if @news_feed.last_updated
+    Last feed activity was
+    = distance_of_time_in_words(@news_feed.last_updated, Time.now)
+    ago. 
+  - if @news_feed.last_polled
+    (last checked for updates
+    = distance_of_time_in_words(@news_feed.last_polled, Time.now)
+    ago).
 .feed
   - buckets = @news_feed.news_buckets
   - buckets.each do |name,items|
