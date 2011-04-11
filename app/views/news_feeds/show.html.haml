@@ -24,6 +24,6 @@
                 = item.title
                 = distance_of_time_in_words(item.date, Time.now)
                 ago
-            %blockquote= strip_tags(item.message)
+            %blockquote= sanitize(strip_tags(item.message))
   - if buckets.length == 0
     %p Looks like we're still in the process of fetching your feed from GitHub. Refresh this page in a few minutes and we'll be right back...

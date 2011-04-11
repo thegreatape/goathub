@@ -57,9 +57,14 @@ class NewsFeed < ActiveRecord::Base
             end
           when 'content'
             # <content> contains entity-escaped HTML  
-            content_doc = REXML::Document.new(node.text)
-            REXML::XPath.match(content_doc.root, "//div[@class='message']").each do |message|
-              item.message = message.children.to_s
+            begin 
+              content_doc = REXML::Document.new(node.text)
+              REXML::XPath.match(content_doc.root, "//div[@class='message']").each do |message|
+                item.message = message.children.to_s
+              end
+            rescue
+              # fall back to just the node text if there's invalid xml
+              item.message = node.text
             end
           when 'thumbnail'
             item.thumb_url = node.attribute('url').value
