@@ -18,9 +18,11 @@
         - items.each do |item|
           .item
             = image_tag item.thumb_url, :width => 30, :height => 30
-            %span.message
-              = item.title
-              = distance_of_time_in_words(item.date, Time.now)
-              ago
+            %span
+              = link_to item.link, :class => 'message' do
+                = item.title
+                = distance_of_time_in_words(item.date, Time.now)
+                ago
+            %blockquote= strip_tags(item.message)
   - if buckets.length == 0
     %p Looks like we're still in the process of fetching your feed from GitHub. Refresh this page in a few minutes and we'll be right back...

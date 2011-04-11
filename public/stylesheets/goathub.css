@@ -62,8 +62,17 @@ a {
     padding: 10px; }
   .feed .bucket .items {
     padding: 10px; }
+    .feed .bucket .items .item img {
+      float: left; }
     .feed .bucket .items .item .message {
-      vertical-align: top; }
+      padding-left: 10px;
+      vertical-align: top;
+      text-decoration: none;
+      color: #193441; }
+    .feed .bucket .items .item blockquote {
+      font-family: Courier New, monospace;
+      margin: 0 45px;
+      padding: 0; }
 
 /* imported from scaffold styles */
 div.field {
