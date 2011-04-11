@@ -1,5 +1,6 @@
 html {
-  height: auto; }
+  height: auto;
+  background: #91aa9d; }
 
 body {
   margin: 0;
@@ -86,8 +87,9 @@ div.field {
     font-size: 0.7em; }
     div.field .explanation img {
       display: block; }
-  div.field .actions {
-    clear: both; }
+
+div.actions {
+  padding-bottom: 30px; }
 
 #notice {
   color: green; }
