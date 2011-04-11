@@ -32,6 +32,11 @@ a {
   text-align: right;
   margin-bottom: 20px; }
 
+.footer {
+  margin-top: 20px;
+  border-top: 1px solid #c4cae2;
+  font-size: 0.6em; }
+
 .wrap {
   margin: 0 auto;
   border: 1px solid #475b51;
@@ -52,6 +57,8 @@ a {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px; }
   .feed .bucket .title {
+    display: block;
+    text-decoration: none;
     -webkit-border-top-left-radius: 20px;
     -webkit-border-top-right-radius: 20px;
     -moz-border-top-left-radius: 20px;

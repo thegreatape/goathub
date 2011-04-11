@@ -13,7 +13,8 @@
   - buckets = @news_feed.news_buckets
   - buckets.each do |name,items|
     .bucket
-      .title= name
+      = link_to items[0].project_link || items[0].author_link, :class=>'title' do
+        = name
       .items
         - items.each do |item|
           .item
