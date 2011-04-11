@@ -4,5 +4,8 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 require 'resque/tasks'
+require 'resque_scheduler/tasks'
+task "resque:scheduler_setup" => :environment # load the env so we know about the job classes
+
 
 Goathub::Application.load_tasks

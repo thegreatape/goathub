@@ -1,0 +1,7 @@
+update_all_feeds:
+  cron: * * * * *
+  class: UpdateAllFeeds
+  queue: news_feed_updates  
+  args: 
+  description: Enqueues all feeds for update
+
