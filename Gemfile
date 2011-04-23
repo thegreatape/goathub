@@ -10,6 +10,7 @@ gem 'haml-rails'
 gem 'resque'
 gem 'resque-scheduler'
 gem 'SystemTimer'
+gem 'mysql2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
