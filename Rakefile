@@ -7,5 +7,7 @@ require 'resque/tasks'
 require 'resque_scheduler/tasks'
 task "resque:scheduler_setup" => :environment # load the env so we know about the job classes
 
+require 'single_test' 
+SingleTest.load_tasks
 
 Goathub::Application.load_tasks

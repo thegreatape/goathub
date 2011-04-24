@@ -33,6 +33,9 @@ class NewsFeed < ActiveRecord::Base
   def create_news_items(feed)
     doc = REXML::Document.new(feed)
 
+    feed_last_updated = DateTime.parse(doc.root.elements['updated'].text)
+    return unless !self.last_updated || feed_last_updated > self.last_updated
+
     entries = REXML::XPath.match(doc.root, '//feed/entry') 
     entries.each do |entry|
       date = DateTime.parse(entry.elements['updated'].text) 
@@ -75,7 +78,7 @@ class NewsFeed < ActiveRecord::Base
       end
     end
 
-    self.last_updated = DateTime.parse(doc.root.elements['updated'].text)
+    self.last_updated = feed_last_updated
     self.save
   end
 

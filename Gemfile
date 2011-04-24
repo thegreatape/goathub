@@ -11,6 +11,7 @@ gem 'resque'
 gem 'resque-scheduler'
 gem 'SystemTimer'
 gem 'mysql2'
+gem 'single_test'
 
 # Use unicorn as the web server
 # gem 'unicorn'

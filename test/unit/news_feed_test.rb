@@ -83,6 +83,17 @@ class NewsFeedTest < ActiveSupport::TestCase
     end
   end
 
+  test "no re-creation of second item" do
+    feed = news_feeds(:empty_feed)
+    xml = IO.read('test/fixtures/feeds/repeating-entry.xml')
+
+    feed.create_news_items(xml)
+    assert_equal 2, feed.news_items(true).length
+    assert_no_difference('feed.news_items(true).length') do
+      feed.create_news_items(xml)
+    end
+  end
+
   test "fetching news feed" do
     feed = news_feeds(:yoda_feed)
     xml = IO.read('test/fixtures/feeds/three_items.xml')
